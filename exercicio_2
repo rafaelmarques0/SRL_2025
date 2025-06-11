@@ -1,17 +1,19 @@
 1
 
 tecnolab 
-                                                                                  /---[PC1]
-                                 /---------departamento de Produção (TI)--------------[PC2]
-                                /                                                 \---[PC3]
+                                                                                                /---[PC1]
+                                 /----(fibra)-----departamento de Produção (TI)---(fibra)-----------[PC2]
+                                /                                                               \---[PC3]
                                /
-__________________________    /                                                               /--------[PC1]
-|Servidor Windows Server |----------------departamento dos Recursos Humanos(RH)------------------------[PC2]
-|________________________|    \                               |                               \--------[PC3]      
-           |                   \                              |                                                  
-     [impresora]----------------------------------------------|
-                                 \                            |
-                                  \                           |                   /--------[PC1]                 
-                                   \---------departamento da Administração-----------------[PC2]
-                                                                                  \--------[PC3]                        
+__________________________    /                                                                             /--------[PC1]
+|Servidor Windows Server |------(fibra)----------departamento dos Recursos Humanos(RH)---(fibra)---------------------[PC2]
+|________________________|    \                                 |                                             \--------[PC3]      
+           |                   \                                |
+         (fibra)                \                               |
+          |                     \                               |                                                  
+     [impresora]------(WIFI/fibra)------------------------------|
+                                   \                            |
+                                    \                           |                                 /--------[PC1]                 
+                                     \----(fibra)-----departamento da Administração-----(fibra)------------[PC2]
+                                                                                                  \--------[PC3]                        
                                                                                   
