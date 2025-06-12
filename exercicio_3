@@ -1,0 +1,15 @@
+1
+ 
+                                                          
+                                      |-GRP_RH------------Login--------RH_Jose---Pasta_RH//acesso:Leitura e escrita            
+                                      |                           \----RH_Maria---Pasta_RH//acesso:Leitura e escrita
+                                      |             
+                                      |
+_________________________             |                                   /---FIN_Afonso---Pasta_FIN//acesso:Leitura e escrita
+|Servidor Windows Server|-------------|-GRP_FIN------------Login----------
+|_______________________|             |                                   \---FIN_Joao---Pasta_FIN//acesso:Leitura e escrita
+                                      |
+                                      |
+                                      |                                  /---IT_Martim---Pasta_IT//acesso:Leitura e escrita
+                                      |-GRP_IT------------Login----------
+                                                                         \---IT_Cidalia----Pasta_IT//acesso:Leitura e escrita
